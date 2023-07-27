@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+background-color:#0d1117;
+color: azure;
+font-family: 'Poppins';
+
+}
+.leading{
+    display: flex;
+   
+
+}
+
+.image-url {
+    position:fixed;
+    left: -10vw;
+    width: 110vw;
+    height: 300vh;
+    background-position: center;
+    z-index: -111;
+    background-image: url(
+        "https://github.githubassets.com/images/modules/site/home-campaign/hero-bg.webp" 
+    
+        );
+}
+
+.second-image {
+    background-image: url(https://github.githubassets.com/images/modules/site/home-campaign/hero-drone.webp) ;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 40vh;
+    right: 0px;
+    top: 25vh;
+    position: absolute;
+    z-index: -100;
+
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+.thirdimage{
+
+    background-image: url(https://github.githubassets.com/images/modules/site/home-campaign/lines-hero.svg);
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 80vh;
+    top: 25vh;
+    left: 10rem;
+    position: absolute;
+    z-index: -95;
+
+}
+
+
+.copilot{
+    margin-top: 55vh;
+    margin-right: 10vw;
+    margin-bottom: auto;
+    margin-left: 50vh;
+    width: max-content;
+    padding: 8px;
+    display: flex;
+
+    border-style:solid;
+    border-radius:50px ;
+    border-width: 1px;
+    border-color: white;
+}
+
+.nav{
+    
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.a{
+ padding: 8px;
+    font-weight:300;
+    font-size:15px;
+       
+}
+.trailing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:300;
+    font-size:15px;
+}
+.search{
+    width: 20vw;
+
+
+justify-content: space-between;
+    padding: 4px 8px 2px 8px;
+    display: flex;
+    border-style:solid;
+    border-radius:7px ;
+    border-width: 1px;
+    border-color: grey;
+}
+
+.fse {
+    display: flex;
+
+}
+
+.searc{
+    border-style:solid;
+    border-radius:4px;
+    border-width: 1px;
+    padding: 2px 4px 4px 4px ;
+    border-color: grey;
+    font-size:x-small;
+}
+
+
+.signup{
+ padding: 6px;
+ font-weight:300;
+ font-size:15px;
+    border-style:solid;
+    border-radius:7px ;
+    border-width: 1px;
+    border-color: white;
+}
+
+.signin{
+padding-left: 20px;
+padding-right: 16px;
+    font-weight:300;
+    font-size:15px;
+}
+
+
+.text{
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+}
+.icon{
+padding: 8px;
+
+}
+.arrowicon{
+padding: 12px  8px 8px 8px ;
+
+align-items: center;
+    justify-content: center;
+
+}
+
+.lets{
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    margin-left: 50vh;
+
+}
+.ai{
+    color: gray;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 50vh;
+}
